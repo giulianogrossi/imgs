@@ -1,1 +1,1 @@
-# GNN-phuselab
+# GNN @ phuselab
