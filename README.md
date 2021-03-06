@@ -1,3 +1,5 @@
+Repository per tesi e vademecum per accesso remoto ai server.
+
 # Accesso via SSh
 Per usare i server `pascal.di.unimi.it` o `volta.di.unimi.it` del laboratorio _phuselab_ 
 occorre un account con proprio `username` (in genere il cognome, definito a inizio tesi). 
