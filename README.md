@@ -16,7 +16,7 @@ Quindi:
 
 ### Installazione di Conda e Python su Jupyter Notebook
 Per definire un ambiente di lavoro privato basato su python, installare mini-conda dalla propria login:
-- seguire le istruzioni in https://docs.conda.io/en/latest/miniconda.html
+- seguire le istruzioni su https://docs.conda.io/en/latest/miniconda.html
 
 Pe utilizzare in remoto (via browser) Python su Jupyter Notebook occorre procedere con l'installazione:
 - seguire le istruzioni in https://jupyter.org/install
@@ -38,5 +38,5 @@ _Google Colab_ è una piattaforma che permette di eseguire codice direttamente s
 - Lanciare da terminale su PC locale il comando `ssh -N -f -L localhost:8888:localhost:8888 username@volta.di.unimi.it` che attiva il tunnelling verso server remoto
 - __NB.__ la porta `8888` è assegnata di default e può essere usata da un solo utente per volta (come tutte le altre porte!)... scegliere quindi una porta > 9000 (a caso e senza che sia già in uso - caso quest'ultimo segnalato dal sistema)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTY4NDQ3OCwtMTg0MzU0NTUwMl19
+eyJoaXN0b3J5IjpbNTE1NzE2MTU5LC0xODQzNTQ1NTAyXX0=
 -->
