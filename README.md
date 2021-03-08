@@ -37,3 +37,6 @@ _Google Colab_ è una piattaforma che permette di eseguire codice direttamente s
 - Lanciare dal server il comando `jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' --port=8888 --NotebookApp.port_retries=0`, che attiva il notebook su jupyther 
 - Lanciare da terminale su PC locale il comando `ssh -N -f -L localhost:8888:localhost:8888 username@volta.di.unimi.it` che attiva il tunnelling verso server remoto
 - __NB.__ la porta `8888` è quella di default e può essere usata da un solo utente per volta (come tutte le porte!)... scegliere quindi una porta > 9000 (a caso e senza che sia già in uso - segnalato dal sistema)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTEzMjI2NzQyNF19
+-->
