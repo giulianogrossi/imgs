@@ -1,4 +1,4 @@
-#  Vademecum per accesso remoto ai server e svolgimento tesi
+#  Vademecum per studenti in tesi
 
 # Accesso via SSH
 Per usare i server `pascal.di.unimi.it` o `volta.di.unimi.it` del laboratorio _phuselab_ 
@@ -38,6 +38,6 @@ _Google Colab_ è una piattaforma che permette di eseguire codice direttamente s
 - Lanciare da terminale su PC locale il comando `ssh -N -f -L localhost:8888:localhost:8888 username@volta.di.unimi.it` che attiva il tunnelling verso server remoto
 - __NB.__ la porta `8888` è assegnata di default e può essere usata da un solo utente per volta (come tutte le altre porte!)... scegliere quindi una porta > 9000 (a caso e senza che sia già in uso - caso quest'ultimo segnalato dal sistema)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUwMjE1NSwxMDU0NDg2OTcyLC0xOD
-QzNTQ1NTAyXX0=
+eyJoaXN0b3J5IjpbMzU2NzU2MDQsMTA1NDQ4Njk3MiwtMTg0Mz
+U0NTUwMl19
 -->
