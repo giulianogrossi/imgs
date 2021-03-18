@@ -10,7 +10,7 @@ L'autenticazione avviene tramite chiave SSH, una credenziale di accesso basata s
 Quindi:
 
 - generare la coppia chiave pubblica-privata dal proprio pc personale utilizzando `ssh-keygen`
-- inviare a grossi@di.unimi.it la chiave pubblica come file allegato per avere la propria chiave autorizzata sul server
+- inviare al docente per eemail la chiave pubblica come file allegato per avere la propria chiave accreditata sul server
 - accedere a pascal: `ssh username@pascal.di.unimi.it`, oppure a volta: `ssh username@volta.di.unimi.it`
 - la propria home avrà global path: `/home/studenti/<cognome>`
 - cambiare subito la password temporanea definita per generare l'utente
