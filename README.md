@@ -41,4 +41,4 @@ _Google Colab_ è una piattaforma che permette di eseguire codice direttamente s
 - __NB.__ la porta `8888` è assegnata di default e può essere usata da un solo utente per volta (come tutte le altre porte!)... scegliere quindi una porta > 9000 (a caso e senza che sia già in uso - caso quest'ultimo segnalato dal sistema)
 
 # Compilazione della tesi in Latex
-Per redigere la tesi scaricare i template latex contenuti nella cartella `util/Latex` e sincronizzare i sorgenti prodotti (per es. su Overleaf) con la cartella `MAIN-TOPIC/Nome_Cognome/tesi/`, collocata sotto la propria cartella nominale sul sito.
+Per redigere la tesi scaricare i template latex contenuti nella cartella `util/Latex` e sincronizzare i sorgenti prodotti (per es. su Overleaf) con la cartella `tesi/`, da collocare sotto la propria cartella nominale `MAIN-TOPIC/Nome_Cognome/` sul sito.
