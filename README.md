@@ -1,6 +1,6 @@
-Repository per tesi e vademecum per accesso remoto ai server.
+#  Vademecum per studenti in tesi
 
-# Accesso via SSH
+## Accesso ai server via SSH
 Per usare i server `pascal.di.unimi.it` o `volta.di.unimi.it` del laboratorio _phuselab_ 
 occorre un account con proprio `username` (in genere il cognome, definito a inizio tesi). 
 L'autenticazione avviene tramite chiave SSH, una credenziale di accesso basata su crittografia sicura supportata dal protocollo SSH. 
@@ -14,7 +14,7 @@ Quindi:
 - cambiare subito la password temporanea definita per generare l'utente
 
 
-### Installazione di Conda e Python su Jupyter Notebook
+## Installazione di Conda e Python su Jupyter Notebook
 Per definire un ambiente di lavoro privato basato su python, installare mini-conda dalla propria login:
 - seguire le istruzioni su https://docs.conda.io/en/latest/miniconda.html
 
@@ -22,7 +22,7 @@ Pe utilizzare in remoto (via browser) Python su Jupyter Notebook occorre procede
 - seguire le istruzioni su https://jupyter.org/install
 
 
-# Uso di Google Colab e Jupyter notebook
+## Uso di Google Colab e Jupyter notebook
 _Google Colab_ è una piattaforma che permette di eseguire codice direttamente sul cloud (macchina virtuale temporanea) 
  o in locale su server privato, come `pascal.di.unimi.it` o `volta.di.unimi.it`. Occorre avere un account Google con 
  accesso a Google Drive dove salvare i propri notebook. Di seguito i passi per programmare in Python sul server tramite i notebook gestiti in Colab.
@@ -38,5 +38,6 @@ _Google Colab_ è una piattaforma che permette di eseguire codice direttamente s
 - Lanciare da terminale su PC locale il comando `ssh -N -f -L localhost:8888:localhost:8888 username@volta.di.unimi.it` che attiva il tunnelling verso server remoto
 - __NB.__ la porta `8888` è assegnata di default e può essere usata da un solo utente per volta (come tutte le altre porte!)... scegliere quindi una porta > 9000 (a caso e senza che sia già in uso - caso quest'ultimo segnalato dal sistema)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDQ4Njk3MiwtMTg0MzU0NTUwMl19
+eyJoaXN0b3J5IjpbLTg1NjY1NjQ2MiwxMDU0NDg2OTcyLC0xOD
+QzNTQ1NTAyXX0=
 -->
