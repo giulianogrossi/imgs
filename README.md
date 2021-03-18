@@ -1,6 +1,6 @@
 #  Vademecum per studenti in tesi
 
-Il presente sito contine le tesi sviluppate presso il laboratorio **phuselab**. Per ogni studente viene predisposta una cartella che ha nome definito da nome&cognome dello studente e collocata sotto una delle cartelle principali inerenti uno dei topic di studio, per es. `VHR/Nome_Cognome`
+Il presente sito contine le tesi sviluppate presso il laboratorio **phuselab**. Per ogni studente viene predisposta una cartella che ha nome  `Nome_Cognome` dello studente e collocata sotto una delle cartelle principali inerenti uno dei topic di studio, per es. `VHR/Nome_Cognome`
 
 ## Accesso ai server via SSH
 Per usare i server `pascal.di.unimi.it` o `volta.di.unimi.it` del laboratorio _phuselab_ 
@@ -40,5 +40,5 @@ _Google Colab_ è una piattaforma che permette di eseguire codice direttamente s
 - Lanciare da terminale su PC locale il comando `ssh -N -f -L localhost:8888:localhost:8888 username@volta.di.unimi.it` che attiva il tunnelling verso server remoto
 - __NB.__ la porta `8888` è assegnata di default e può essere usata da un solo utente per volta (come tutte le altre porte!)... scegliere quindi una porta > 9000 (a caso e senza che sia già in uso - caso quest'ultimo segnalato dal sistema)
 
-# Compilazione della tesi in Latex
-Per redigere la tesi scaricare i template latex contenuti nella cartella `util/Latex` e sincronizzare i sorgenti prodotti (per es. su Overleaf) con la cartella `tesi/`, da collocare sotto la propria cartella nominale `MAIN-TOPIC/Nome_Cognome/` sul sito.
+## Compilazione della tesi in Latex
+Per redigere la tesi scaricare i template latex contenuti nella cartella `util/Latex` e sincronizzare i sorgenti prodotti (per es. su [Overleaf](https://www.overleaf.com/)) con la cartella `tesi/`, da collocare sotto la propria cartella nominale `MAIN-TOPIC/Nome_Cognome/` sul sito.
