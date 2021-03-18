@@ -1,5 +1,7 @@
 #  Vademecum per studenti in tesi
 
+Il presente sito contine le tesi sviluppate presso il laboratorio **phuselab**. Per ogni studente viene predisposta una cartella con nome e cognome dello studente e collocata sotto una delle cartelle principali inerenti uno dei topic di studio, per es. `MAIN-TOPIC/Nome_Cognome`
+
 ## Accesso ai server via SSH
 Per usare i server `pascal.di.unimi.it` o `volta.di.unimi.it` del laboratorio _phuselab_ 
 occorre un account con proprio `username` (in genere il cognome, definito a inizio tesi). 
@@ -37,7 +39,6 @@ _Google Colab_ è una piattaforma che permette di eseguire codice direttamente s
 - Lanciare dal server il comando `jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' --port=8888 --NotebookApp.port_retries=0`, che attiva il notebook su jupyther 
 - Lanciare da terminale su PC locale il comando `ssh -N -f -L localhost:8888:localhost:8888 username@volta.di.unimi.it` che attiva il tunnelling verso server remoto
 - __NB.__ la porta `8888` è assegnata di default e può essere usata da un solo utente per volta (come tutte le altre porte!)... scegliere quindi una porta > 9000 (a caso e senza che sia già in uso - caso quest'ultimo segnalato dal sistema)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjY1NjQ2MiwxMDU0NDg2OTcyLC0xOD
-QzNTQ1NTAyXX0=
--->
+
+# Compilazione della tesi in Latex
+Per redigere la tesi scaricare i template latex contenuti nella cartella `util/Latex` e sincronizzare i sorgenti prodotti con la cartella `MAIN-TOPIC/Nome_Cognome/tesi/` collocata sotto la propria cartella dedicata sul sito.
