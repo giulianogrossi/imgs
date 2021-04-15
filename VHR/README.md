@@ -1,1 +1,0 @@
-# Tesi su VHR
